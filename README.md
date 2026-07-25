@@ -1,4 +1,4 @@
-# VeteransWellnessProject
+# Veterans Wellness Project
 =========================
 
 This repository contains the complete reproducible analysis pipeline for
@@ -38,8 +38,8 @@ and figures.
 All manuscript tables and figures are generated automatically
 from frozen intermediate outputs.
 
-Repository structure
-
+## Repository structure
+--------
 Code/
 
 DerivedData/
@@ -54,10 +54,26 @@ Reproducibility/
 
 RawData/
 
-Authors
+## Workflow
+--------
+RawData
+    ↓
+03_build_analysis_corpus.R
+    ↓
+DerivedData
+    ↓
+04–08 Analysis
+    ↓
+Output
+    ├── reddit_stm
+    ├── esfi_stm
+    ├── publication
+    └── reproducibility
 
-Monnie McGee, PhD
+## Authors
+--------
+Monnie McGee, PhD, Department of Statistics and Data Science, SMU
 
-Jennifer Ebinger, EdD
+Jennifer Ebinger, EdD, Office of Engaged Learning, SMU
 
-Jessie Zarazaga, PhD
+Jessie Zarazaga, PhD, Department of Civil and Environmental Engineering, SMU
