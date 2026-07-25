@@ -54,33 +54,6 @@ Reproducibility/
 
 RawData/
 
-## Workflow
---------
-RawData
-    
-    ↓
-    
-03_build_analysis_corpus.R
-
-    ↓
-
-DerivedData
-
-    ↓
-
-04–08 Analysis
-
-    ↓
-
-Output
-    ├── reddit_stm
-    
-    ├── esfi_stm
-    
-    ├── publication
-    
-    └── reproducibility
-
 ## Authors
 --------
 Monnie McGee, PhD, Department of Statistics and Data Science, SMU
