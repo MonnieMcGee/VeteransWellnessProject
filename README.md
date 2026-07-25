@@ -58,5 +58,7 @@ RawData/
 Authors
 
 Monnie McGee, PhD
+
 Jennifer Ebinger, EdD
+
 Jessie Zarazaga, PhD
