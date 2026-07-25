@@ -1,63 +1,142 @@
-# Veterans Wellness Project
-=========================
+# Dallas Veterans Well-Being Assessment
 
-This repository contains the complete reproducible analysis pipeline for
+## Assessment of Dallas Veterans' Services:
+### Integrated Assessment of Veteran Well-Being Using Qualitative, Spatial, and Mobility-Based Data Science Methods
 
-Assessment of Dallas Veterans' Services: Integrated Assessment of Veteran Well-Being Using Qualitative,
-Spatial, and Mobility-Based Data Science Methods
+This repository contains the complete reproducible analysis pipeline for the Dallas Veterans Well-Being Assessment project. The project integrates qualitative, natural language processing, structural topic modeling, and geospatial methods to understand barriers to accessing veterans' services in Dallas, Texas.
 
-## Analysis Pipeline
---------
-00_project_setup.R
+The repository includes the complete workflow used to construct the Reddit analysis corpus, develop and validate the Experienced System Fragmentation Index (ESFI), fit Structural Topic Models (STM), and generate all publication-ready tables and figures. :contentReference[oaicite:0]{index=0}
 
-01_project_inventory.R
+---
 
-02_raw_input_manifest.R
+## Data Availability
 
-03_build_analysis_corpus.R
+The analysis code and derived reproducible workflow are available in this repository.
 
-04_develop_esfi_dictionary.R
+Raw Redditt data and data from the Veterans Insights Forum are subject to licensing, privacy, or institutional restrictions and therefore are not redistributed. Instructions for recreating the analysis from authorized source data are provided in the `RawData/README.md` file.
 
-05_valdiate_esfi_dictionary.R
+---
 
-06_prepare_stm_corpus.R
+# Authors
 
-07_fit_reddit_stm.R
+- **Monnie McGee**, PhD  
+  Department of Statistics and Data Science  
+  Southern Methodist University
 
-08_validate_esfi_with_stm.R
+- **Jennifer Ebinger**, EdD  
+  Office of Engaged Learning  
+  Southern Methodist University
 
-09_generate_publication_tables_figures.R
+- **Jessie Zarazaga**, PhD  
+  Department of Civil and Environmental Engineering  
+  Southern Methodist University
 
-10_session_info.R
+---
 
-Data are processed from raw Reddit and Veterans Insights Forum
-sources through corpus construction, ESFI dictionary development,
-STM topic modeling, validation, and publication-ready tables
-and figures.
+# Repository Structure
 
-All manuscript tables and figures are generated automatically
-from frozen intermediate outputs.
-
-## Repository structure
---------
+```
 Code/
-
-DerivedData/
-
-Output/
-
-Papers/
-
-Presentations/
-
-Reproducibility/
-
 RawData/
+DerivedData/
+Output/
+Papers/
+Presentations/
+Reproducibility/
+```
 
-## Authors
---------
-Monnie McGee, PhD, Department of Statistics and Data Science, SMU
+---
 
-Jennifer Ebinger, EdD, Office of Engaged Learning, SMU
+# Analysis Pipeline
 
-Jessie Zarazaga, PhD, Department of Civil and Environmental Engineering, SMU
+Scripts should be executed sequentially.
+
+```
+00_project_setup.R
+01_project_inventory.R
+02_raw_input_manifest.R
+03_build_analysis_corpus.R
+04_develop_esfi_dictionary.R
+05_validate_esfi_dictionary.R
+06_prepare_stm_corpus.R
+07_fit_reddit_stm.R
+08_validate_esfi_with_stm.R
+09_generate_publication_tables_figures.R
+10_session_info.R
+```
+
+The pipeline progresses from raw Reddit and Veterans Insights Forum data through corpus construction, ESFI dictionary development and validation, Structural Topic Modeling, statistical analyses, and automatic generation of publication-ready tables and figures.
+
+---
+
+# Software Requirements
+
+- R (≥ 4.5)
+- quanteda
+- stm
+- tidyverse
+- lubridate
+- readr
+
+Random seeds are set throughout the analysis to maximize reproducibility. :contentReference[oaicite:2]{index=2}
+
+---
+
+# Data Flow
+
+```
+Raw Data
+    │
+    ▼
+Analysis Corpus
+    │
+    ├── ESFI Development
+    │
+    └── STM Preparation
+            │
+            ▼
+      Structural Topic Model
+            │
+            ▼
+ Validation and Figures
+```
+
+---
+
+# Frozen Analysis Objects
+
+Several intermediate objects are intentionally frozen and should never be modified once created. These include the finalized Reddit corpus, document-feature matrices, metadata, and the final ESFI dictionary. They serve as the foundation for all downstream analyses and ensure that every manuscript result can be reproduced exactly.
+
+---
+
+# Reproducibility
+
+The repository was designed to support fully reproducible research.
+
+- Scripts execute in numerical order.
+- Each script reads only outputs produced by previous scripts.
+- Upstream data objects are never modified.
+- Publication tables and figures are generated automatically from frozen intermediate outputs.
+- Session information, package versions, and project manifests are recorded to document the computational environment. 
+
+---
+
+# Citation
+
+If you use this software, analysis pipeline, or derivative work, please cite:
+
+> McGee M, Ebinger J, Zarazaga J. *Assessment of Dallas Veterans' Services: Integrated Assessment of Veteran Well-Being Using Qualitative, Spatial, and Mobility-Based Data Science Methods.* (Manuscript in preparation.)
+
+Once the manuscript is published, this citation will be updated with the journal reference and DOI.
+
+---
+
+# License
+
+The source code in this repository is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.
+
+---
+
+# Acknowledgments
+
+This work was supported by the City of Dallas Veterans Affairs Commission under Contract **FHO-2025-0002075**.
