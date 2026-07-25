@@ -1,5 +1,4 @@
 # VeteransWellnessProject
-Veterans Wellness Project
 =========================
 
 This repository contains the complete reproducible analysis pipeline for
