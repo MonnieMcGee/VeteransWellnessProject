@@ -1,0 +1,13 @@
+Topic,Topic label,Estimate,Standard error,95% CI,p-value
+11,VA Disability Claims and the PACT Act,0.186,0.015,"(0.157, 0.216)",<0.001
+9,VA Healthcare and Community Care,0.031,0.015,"(0.002, 0.060)",0.034
+6,Service Connection for Military-Related Health Conditions,0.024,0.008,"(0.008, 0.040)",0.003
+8,"Government, Politics, and Civic Discussion",0.007,0.009,"(-0.011, 0.025)",0.449
+12,Entertainment Venues and Local Attractions,-0.007,0.007,"(-0.022, 0.007)",0.331
+2,"Arts, Entertainment, and Community Events",-0.012,0.007,"(-0.027, 0.002)",0.097
+4,VA Home Loans and Home Buying,-0.022,0.011,"(-0.044, 0.000)",0.055
+3,"Housing Costs, Property Taxes, and Affordability",-0.029,0.009,"(-0.047, -0.011)",0.002
+7,Employment and Career Opportunities,-0.034,0.008,"(-0.050, -0.019)",<0.001
+10,General Discussion and Peer Support,-0.038,0.009,"(-0.055, -0.021)",<0.001
+1,Education Benefits and the GI Bill,-0.041,0.011,"(-0.062, -0.019)",<0.001
+5,Living in Texas and Choosing Where to Live,-0.065,0.012,"(-0.089, -0.042)",<0.001

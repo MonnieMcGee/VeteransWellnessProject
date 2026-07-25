@@ -1,0 +1,13 @@
+"dictionary_stem","domain","hits","percent_of_all_hits","cumulative_percent"
+"claim*","administrative_processes",160,37.3831775700935,37.3831775700935
+"wait*","waiting_delay",84,19.6261682242991,57.0093457943925
+"denied","access_barriers",56,13.0841121495327,70.0934579439252
+"transfer*","coordination_failures",43,10.0467289719626,80.1401869158879
+"denial*","access_barriers",38,8.8785046728972,89.018691588785
+"appeal*","administrative_processes",31,7.24299065420561,96.2616822429907
+"paperwork","administrative_processes",16,3.73831775700935,100
+"reject*","access_barriers",0,0,100
+"backlog*","waiting_delay",0,0,100
+"delay*","waiting_delay",0,0,100
+"redirect*","coordination_failures",0,0,100
+"handoff*","coordination_failures",0,0,100

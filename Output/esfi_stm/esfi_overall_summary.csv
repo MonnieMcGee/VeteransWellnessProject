@@ -1,0 +1,2 @@
+n_documents,n_with_fragmentation,pct_with_fragmentation,total_esfi_hits,mean_esfi_hits,median_esfi_hits,mean_log_esfi_hits,median_log_esfi_hits,sd_log_esfi_hits,max_esfi_hits
+3008,268,0.08909574468085106,428,0.14228723404255136,0,0.07945440541476059,0,0.27197739970201557,7

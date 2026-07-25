@@ -1,0 +1,60 @@
+Topic 1 Top Words:
+ 	 Highest Prob: school, get, work, bill, gi, full, online, gi_bill, college, program, help, plan, started, start, classes, army, advice, looking, schools, use 
+ 	 FREX: gi, gi_bill, bill, school, army, classes, university, full, advice, security, started, college, degree, guys, program, son, online, schools, taking, plan 
+ 	 Lift: semester, son, bah, exchange, gi, gi_bill, greatly_appreciated, undergrad, security, located, colleges, army, university, eventually, classes, bill, degree, tuition, finish, finished 
+ 	 Score: school, gi_bill, gi, classes, exchange, bill, schools, college, university, security, program, undergrad, bah, degree, graduate, advice, get, semester, army, son 
+Topic 2 Top Words:
+ 	 Highest Prob: art, event, fort_worth, museum, weekend, feb, events, frisco, fun, game, week, christmas, saturday, miss, show, food, home, monday, american, tickets 
+ 	 FREX: feb, weekend, fun, game, tickets, frisco, facebook, beer, tomorrow, flight, museum, event, events, art, christmas, saturday, monday, august, field, fort_worth 
+ 	 Lift: realized, tickets, facebook, fun, tomorrow, collection, modern, flight, august, feb, details, beer, weekend, artist, added, paint, home_opener, opener, middle, game 
+ 	 Score: art, museum, feb, realized, events, tour, event, sunday, museum_art, gallery, artists, facebook, tickets, christmas, frisco, beer, fc, saturday, weekend, contemporary 
+Topic 3 Top Words:
+ 	 Highest Prob: house, property, pay, tax, texas, taxes, rent, buy, roads, required, income, travel, credit, get, tx, north, road, high, property_taxes, housing 
+ 	 FREX: property, rent, buy, roads, taxes, property_taxes, income, tax, credit, apartment, vehicle, property_tax, rates, required, travel, renting, road, house, bought, registration 
+ 	 Lift: apartment, changes, credit_score, income_tax, property_taxes, rent, rental, roads, state_income, property, apartments, buy, buy_house, property_tax, renting, vehicle, exemption, rates, bought, funding 
+ 	 Score: roads, property, tax, taxes, buy, rent, registration, property_taxes, house, property_tax, changes, income, travel, state_income, income_tax, apartment, required, rental, buy_house, vehicle 
+Topic 4 Top Words:
+ 	 Highest Prob: va, home, loan, insurance, market, money, va_loan, offer, closing, go, use, costs, price, using, appraisal, cash, offers, mortgage, rate, house 
+ 	 FREX: loan, va_loan, closing, appraisal, insurance, price, costs, cash, inspection, loans, market, home, offers, 300k, closing_costs, offer, lender, seller, rate, use_va 
+ 	 Lift: 300k, closing, closing_costs, feedback, funds, health_insurance, inspection, lender, seller, appraisal, conventional, loan, loans, makes_sense, use_va, using_va, va_loan, sellers, fixed, tricare 
+ 	 Score: loan, va, va_loan, insurance, appraisal, closing, closing_costs, market, feedback, costs, inspection, cash, sellers, health_insurance, seller, mortgage, home, lender, price, loans 
+Topic 5 Top Words:
+ 	 Highest Prob: live, great, city, area, texas, place, looking, love, living, houston, dfw, big, san_antonio, places, austin, cities, better, lived, state, nice 
+ 	 FREX: cities, great, city, places, nature, lived, love, traffic, expensive, suburbs, drive, san_antonio, place, nice, living, area, live, moved, houston, weather 
+ 	 Lift: born, cheap, cities, corporate, insight, nj, walkable, complain, crime, interesting, philly, sf, crowded, diversity, nearby, sprawl, remote, east_coast, sa, weather 
+ 	 Score: city, cities, san_antonio, live, lived, insight, houston, nature, suburbs, traffic, la, drive, culture, austin, texas, nyc, sf, great, sa, cost_living 
+Topic 6 Top Words:
+ 	 Highest Prob: service, military, cancer, condition, chronic, disability, type, mine, sinusitis, connection, service_connection, diagnosed, medical, los, evidence, iraq, duty, active, study, injury 
+ 	 FREX: condition, sinusitis, service_connection, los, iraq, chronic, type, service, rhinitis, connection, mine, study, mr, military, mr_cooper, compensation, afghanistan, injury, cancer, diagnosed 
+ 	 Lift: deployed, mass, mr, sinusitis, condition, afghanistan, iraq, los, mr_cooper, rhinitis, service_connection, format_pjpg, pjpg, pjpg_auto, chronic_sinusitis, study, trauma, compensation, chronic, connection 
+ 	 Score: los, service, sinusitis, condition, service_connection, connection, diagnosed, chronic, cancer, rhinitis, chronic_sinusitis, military, mr_cooper, nexus, evidence, mr, study, type, cooper, injury 
+Topic 7 Top Words:
+ 	 Highest Prob: job, work, every, benefits, check, hope, free, yes, many, texas, hours, op, dfw, getting, probably, feel, jobs, career, available, open 
+ 	 FREX: op, job, career, check, dm, available, every, union, hope, jobs, companies, resources, across, benefits, yes, amazing, placement, hours, share, hand 
+ 	 Lift: control, dm, everyone_else, helping, liberal, placement, conservative, applied, lifetime, op, ability, maintenance, available, career, trade, network, homeless, hospitals, across, employment 
+ 	 Score: job, helping, placement, hope, career, union, benefits, jobs, yes, hours, dm, states, dfw, liberal, single, work, companies, op, available, okay 
+Topic 8 Top Words:
+ 	 Highest Prob: county, vets, gt, government, #x200b, done, wish, get, public, without, seems, part, experience, hey, list, made, hear, business, long, read 
+ 	 FREX: gt, government, wish, rule, hey, #x200b, sub, rules, vote, guy, vets, allowed, imagine, wants, bunch, seattle, seem, county, hear, board 
+ 	 Lift: republican, seattle, sub, allowed, example, policy, rule, yep, gt, vote, fuck, direction, hey, government, bs, wish, court, rules, christian, tim 
+ 	 Score: seattle, #x200b, rule, government, gt, vote, done, wish, republican, hate, rules, county, tim, wants, public, christian, sub, business, vets, hear 
+Topic 9 Top Words:
+ 	 Highest Prob: va, care, get, help, call, hospital, health, community, pain, doctor, mental, medical, clinic, days, community_care, treatment, cancer, go, local, mental_health 
+ 	 FREX: doctor, mental, clinic, community_care, mental_health, appointment, va_hospital, hospital, care, patient, pain, md, call, doctors, treatment, phone, anderson, dental, md_anderson, surgery 
+ 	 Lift: nurse, acupuncture, anderson, appointment, checked, clinic, community_care, complaint, condolences, dental, die, doctor, drug, er, local_va, md, md_anderson, medical_center, mental, mental_health 
+ 	 Score: va, care, community_care, pain, doctor, treatment, surgery, mental, die, appointment, clinic, mental_health, anderson, md_anderson, patient, cancer, hospital, medical, health, va_hospital 
+Topic 10 Top Words:
+ 	 Highest Prob: know, get, back, years, go, better, luck, need, always, say, try, find, lol, yeah, nothing, different, actually, best, shit, definitely 
+ 	 FREX: lol, luck, yeah, shit, try, nothing, know, stuff, definitely, sounds, real, say, dude, worth, damn, glad, back, appreciate, happy, gonna 
+ 	 Lift: wow, ft_worth, gonna, lol, members, feeling, get_back, haha, journey, dude, ass, totally, priority, edit, changed, damn, knowing, fucking, telling, shit 
+ 	 Score: lol, journey, luck, try, get, shit, say, need, appreciate, yeah, different, cause, know, gonna, damn, definitely, dude, glad, awesome, bad 
+Topic 11 Top Words:
+ 	 Highest Prob: claim, help, act, letter, pact, service, va, pact_act, vso, rating, back, didn, records, connected, due, get, exam, file, claims, hlr 
+ 	 FREX: pact, pact_act, vso, hlr, diagnosis, claim, connected, symptoms, letter, filed, act, presumptive, service_connected, denial, deployment, exam, exposure, file, dr, burn 
+ 	 Lift: vba, denial, denial_letter, deployments, diagnosis, examiner, filing, fully, hlr, pact, presumptive, presumptive_exposure, secondary, swa, symptoms, vso, filed, pact_act, service_connected, orders 
+ 	 Score: pact, pact_act, claim, hlr, presumptive, vso, denial, symptoms, fully, file, letter, diagnosis, filed, records, exam, presumptive_exposure, service_connected, claims, evidence, conditions 
+Topic 12 Top Words:
+ 	 Highest Prob: free, nov, center, theatre, park, oct, comedy, club, texas, night, art, library, fort_worth, house, branch, hall, vs, plano, arts, music 
+ 	 FREX: comedy, library, cultural_center, nov, theatre, comedy_club, oct, club, park, movie, mic, hall, festival, branch, fair_park, comments, texas_theatre, free, dec, center 
+ 	 Lift: musical, airlines, american_airlines, comedy_club, comments, deep_ellum, ellum, fair_park, granada, house_cultural, library, mic, moody, movie, open_mic, texas_theatre, trivia, airlines_center, art_co, blues 
+ 	 Score: comedy, theatre, nov, library, cultural_center, club, art, comedy_club, gallery, festival, museum, oct, mic, comments, tour, texas_theatre, cliff, central_library, erik, erik_jonsson 

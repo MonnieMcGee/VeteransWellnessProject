@@ -1,0 +1,4 @@
+dominant_topic,dominant_topic_label,n_documents,pct_with_fragmentation,mean_esfi_hits,mean_log_esfi_hits,median_log_esfi_hits
+11,VA Disability Claims and the PACT Act,278,0.44244604316546765,0.8057553956834537,0.4258555990288724,0
+6,Service Connection for Military-Related Health Conditions,50,0.1,0.31999999999999984,0.1352314553760812,0
+9,VA Healthcare and Community Care,514,0.14007782101167315,0.19066147859922175,0.11460572928863104,0

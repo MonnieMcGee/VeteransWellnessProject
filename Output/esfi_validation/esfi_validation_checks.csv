@@ -1,0 +1,9 @@
+check,value
+analysis_documents,3066
+analysis_features,1681
+matched_esfi_features,11
+total_esfi_hits,428
+esfi_positive_documents,268
+stored_scores_match_recalculation,TRUE
+count_model_used,negative_binomial
+poisson_dispersion_ratio,1.59171145693249

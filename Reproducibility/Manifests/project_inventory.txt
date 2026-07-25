@@ -1,0 +1,256 @@
+.Rhistory|14768|2026-07-24 17:47:32
+.here|0|2026-07-23 12:42:39
+Code/.Rapp.history|0|2026-07-23 10:35:17
+Code/.Rhistory|10932|2026-07-23 10:33:16
+Code/00_project_setup.R|2165|2026-07-24 17:46:24
+Code/01_project_inventory.R|4432|2026-07-23 11:07:38
+Code/02_raw_input_manifest.R|7514|2026-07-23 11:05:14
+Code/03_build_analysis_corpus.R|16168|2026-07-23 13:11:00
+Code/04_develop_esfi_dictionary.R|25198|2026-07-23 17:20:16
+Code/04_develop_esfi_dictionary_old.R|25774|2026-07-17 17:34:01
+Code/05_validate_esfi_dictionary.R|13201|2026-07-23 17:25:19
+Code/05_validate_esfi_dictionary_old.R|8679|2026-07-16 18:27:14
+Code/06_prepare_stm_corpus.R|16022|2026-07-24 09:54:24
+Code/06_prepare_stm_corpus_old.R|12218|2026-07-16 18:52:26
+Code/07_fit_reddit_stm.R|7361|2026-07-24 17:47:17
+Code/08_validate_esfi_with_stm.R|21213|2026-07-24 17:46:47
+Code/STM_estimates.txt|209472|2026-04-14 12:36:27
+Code/VIIF/DallasVetServices.csv|2871|2026-04-21 16:57:58
+Code/VIIF/DallasVetServices.xlsx|11669|2025-12-08 09:47:32
+Code/VIIF/DallasVetServices_cleaned.csv|4240|2026-04-22 09:05:37
+Code/VIIF/DallasVetServices_geocoded.csv|4915|2026-04-22 18:15:10
+Code/VIIF/Transportation.gdb.zip|106131800|2026-04-13 12:36:11
+Code/VIIF/VIFF_GeoCode.R|176|2026-04-14 14:20:29
+Code/VIIF/VIIF_ActivityCodedInfo.xlsx|131442|2026-04-13 12:07:03
+Code/VIIF/VIIF_HowMightWe.R|7709|2026-01-20 12:39:55
+Code/VIIF/VIIF_STM_Code.R|16474|2026-04-28 20:33:44
+Code/VIIF/VIIF_brainstorming.R|7425|2026-01-20 11:52:54
+Code/VIIF/VIIF_terrainMapping.R|7203|2026-01-16 11:05:48
+Code/VIIF/Veterans_Code_Final.R|27851|2026-07-14 11:51:21
+Code/VIIF/dallas_city_veterans_acs.csv|63|2026-04-22 20:35:56
+Code/VIIF/dallas_tract_descriptives.csv|429|2026-04-22 20:35:56
+Code/VIIF/dallas_tract_social_indicators.csv|63683|2026-04-22 20:35:56
+Code/VIIF/dallas_tracts_geometry.csv|231786|2026-04-22 11:46:27
+Code/VIIF/dallas_unemployment_compare.csv|88|2026-04-22 20:35:56
+Code/VIIF/vetServicesGeocoding.R|3751|2026-04-22 18:15:23
+Code/VIIF/veteranPopulationMaps.R|13922|2026-04-22 09:28:20
+Code/VIIF/veteranPopulationMaps_cleaned.R|15263|2026-04-22 17:03:57
+Code/VIIF/viif_k_diagnostics.csv|405|2026-04-14 12:14:46
+Code/VIIF/viif_reddit_stm_topic_crosswalk.pdf|5944|2026-04-28 20:54:30
+Code/VIIF/viif_themes_reddit_crosswalk_heatmap.pdf|5889|2026-04-28 20:49:48
+Code/VIIF/viif_themes_reddit_crosswalk_heatmap.png|318706|2026-04-28 20:49:48
+Code/VWP_Trianglulation_Code.R|13366|2026-04-17 15:25:46
+DallasVeterans.Rproj|205|2026-07-24 17:51:10
+DerivedData/corp_vet_analysis_final.rds|990198|2026-07-16 13:53:58
+DerivedData/dfm_vet2_final.rds|793001|2026-07-16 13:53:58
+DerivedData/dfm_vet_analysis_final.rds|657540|2026-07-16 13:53:58
+DerivedData/esfi_dictionary.rds|109|2026-07-23 17:20:44
+DerivedData/event_calendar_posts_removed.csv|15309|2026-07-23 13:09:33
+DerivedData/event_calendar_posts_removed.rds|4864|2026-07-23 13:09:33
+DerivedData/reddit_analysis_metadata.csv|2026548|2026-07-23 13:09:34
+DerivedData/reddit_analysis_metadata.rds|543862|2026-07-23 13:09:34
+DerivedData/reddit_analysis_metadata_with_esfi.csv|2050833|2026-07-23 17:20:44
+DerivedData/reddit_analysis_metadata_with_esfi.rds|545042|2026-07-23 17:20:44
+DerivedData/reddit_corpus_analysis_corpus.rds|1011093|2026-07-23 13:09:34
+DerivedData/reddit_corpus_stm.rds|982682|2026-07-24 09:54:32
+DerivedData/reddit_dfm_analysis_corpus.rds|680834|2026-07-23 13:09:33
+DerivedData/reddit_dfm_analysis_with_esfi.rds|681852|2026-07-23 17:20:44
+DerivedData/reddit_dfm_pre_event_exclusion.rds|813610|2026-07-23 13:09:33
+DerivedData/reddit_dfm_stm.rds|664268|2026-07-24 09:54:32
+DerivedData/reddit_metadata_stm.rds|520481|2026-07-24 09:54:32
+DerivedData/reddit_stm_input.rds|652339|2026-07-24 09:54:32
+DerivedData/reddit_stm_vocab.rds|6840|2026-07-24 09:54:32
+DerivedData/reddit_tokens_analysis_corpus.rds|1391037|2026-07-23 13:09:33
+DerivedData/reddit_tokens_stm.rds|1363329|2026-07-24 09:54:32
+DerivedData/toks_vet_analysis_final.rds|1369089|2026-07-16 13:53:58
+Papers/CSTP/CSTPAbstractAcceptance.pdf|384661|2026-03-13 10:36:35
+Papers/CSTP/CSTP_Veterans project paper_Final Edited in Word.docx|3028657|2026-07-09 16:39:20
+Papers/CSTP/Pledge_J0326_from_Citizen_Science_Association.pdf|94722|2026-03-23 10:50:56
+Papers/FinalReports/Appendix-Glossary.docx|16099|2026-02-10 15:55:44
+Papers/FinalReports/Cover Letters/CoverLetter-Harris.aux|32|2026-04-15 13:52:39
+Papers/FinalReports/Cover Letters/CoverLetter-Harris.log|7854|2026-04-15 13:53:24
+Papers/FinalReports/Cover Letters/CoverLetter-Harris.pdf|26122|2026-04-15 13:53:24
+Papers/FinalReports/Cover Letters/CoverLetter-Harris.synctex.gz|6476|2026-04-15 13:53:24
+Papers/FinalReports/Cover Letters/CoverLetter-Harris.tex|5213|2026-04-15 13:53:24
+Papers/FinalReports/Cover Letters/CoverLetter-JHCClark.aux|32|2026-04-13 16:07:51
+Papers/FinalReports/Cover Letters/CoverLetter-JHCClark.log|7593|2026-04-13 16:07:51
+Papers/FinalReports/Cover Letters/CoverLetter-JHCClark.pdf|25592|2026-04-13 16:07:51
+Papers/FinalReports/Cover Letters/CoverLetter-JHCClark.synctex.gz|5772|2026-04-13 16:07:51
+Papers/FinalReports/Cover Letters/CoverLetter-JHCClark.tex|5030|2026-04-13 16:08:30
+Papers/FinalReports/Cover Letters/CoverLetter-Janan.aux|32|2026-04-13 16:19:02
+Papers/FinalReports/Cover Letters/CoverLetter-Janan.log|7575|2026-04-13 16:19:02
+Papers/FinalReports/Cover Letters/CoverLetter-Janan.pdf|25590|2026-04-13 16:19:02
+Papers/FinalReports/Cover Letters/CoverLetter-Janan.synctex.gz|5579|2026-04-13 16:19:02
+Papers/FinalReports/Cover Letters/CoverLetter-Janan.tex|5122|2026-04-15 13:51:49
+Papers/FinalReports/Cover Letters/CoverLetter-RGT.aux|32|2026-04-13 16:04:26
+Papers/FinalReports/Cover Letters/CoverLetter-RGT.log|7567|2026-04-13 16:04:26
+Papers/FinalReports/Cover Letters/CoverLetter-RGT.pdf|25454|2026-04-13 16:04:26
+Papers/FinalReports/Cover Letters/CoverLetter-RGT.tex|4985|2026-04-13 16:04:45
+Papers/FinalReports/Cover Letters/Signature.png|7197|2025-09-05 16:36:49
+Papers/FinalReports/DRAFT Veterans Wellness Assessment Report (8).pdf|18083232|2026-02-27 16:01:54
+Papers/FinalReports/DRAFT Veterans Wellness Assessment Report -MMeditsV1.pdf|17341882|2026-02-27 17:04:20
+Papers/FinalReports/DRAFT Veterans Wellness Assessment Report -MMeditsV2.pdf|17388919|2026-03-01 14:20:22
+Papers/FinalReports/FINAL Veterans Wellness Assessment Report 3.12.26.pdf|25893230|2026-03-12 10:42:15
+Papers/FinalReports/FINAL Veterans Wellness Assessment Report April 2026.pdf|68399639|2026-04-02 15:11:13
+Papers/FinalReports/FINAL Veterans Wellness Assessment Report.pdf|25607519|2026-03-11 16:28:52
+Papers/FinalReports/FINAL Veterans Wellness Assessment Report_3.17.26.pdf|46842742|2026-03-30 10:59:15
+Papers/FinalReports/FinalReportPieces/FinalReport-ExecutiveSummary.pdf|38828|2026-04-03 15:57:29
+Papers/FinalReports/FinalReportPieces/FinalReport-Introduction.pdf|7557353|2026-04-03 15:58:29
+Papers/FinalReports/FinalReportPieces/FinalReport-Methods.pdf|4654761|2026-04-03 15:58:56
+Papers/FinalReports/FinalReportPieces/FinalReport-Recommendations.pdf|2588258|2026-04-03 16:01:47
+Papers/FinalReports/FinalReportPieces/FinalReport-ResultsAndThemes.pdf|28106105|2026-04-03 16:00:48
+Papers/FinalReports/FinalReportPieces/FinalReport-SituatingVeterans.pdf|9843354|2026-04-03 15:59:40
+Papers/FinalReports/FinalReportPieces/FinalReport-Themes1to3.pdf|8904909|2026-04-06 10:27:50
+Papers/FinalReports/FinalReportPieces/FinalReport-Themes4to6.pdf|4086457|2026-04-06 10:28:33
+Papers/FinalReports/FinalReportPieces/FinalReport-Themes7and8.pdf|7040352|2026-04-06 10:29:10
+Papers/FinalReports/FinalReportPieces/FinalReport-Themes9and10.pdf|8973773|2026-04-06 10:29:32
+Papers/FinalReports/FinalReportPieces/veteran_stm_results.rds|755218|2026-03-31 17:01:09
+Papers/FinalReports/GIS Data FOR UPLOADING.zip|3623664580|2026-03-11 16:44:29
+Papers/FinalReports/GivingDayReceiptMaryMcGee.pdf|365396|2026-03-13 17:23:46
+Papers/FinalReports/Integrated Assessment of Veteran Services in Dallas City of Dallas Veterans Affairs Commission SMU Research Team  March 2026.pdf|16568049|2026-03-12 10:45:26
+Papers/FinalReports/Letter of Endorsement.docx|15505|2026-03-13 08:28:57
+Papers/FinalReports/PREVIEW COPY Veterans Wellness Assessment Report.pdf|20905738|2026-03-05 10:02:50
+Papers/FinalReports/PXL_20260312_165806627.MP.jpg|7316680|2026-03-13 10:07:12
+Papers/FinalReports/PXL_20260312_165810170.jpg|2507628|2026-03-13 10:06:56
+Papers/FinalReports/Picture from VAC Meeting.zip|9824592|2026-03-13 16:42:11
+Papers/FinalReports/Pictures from VAC Meeting 2.zip|23119581|2026-03-17 16:01:19
+Papers/FinalReports/Pictures from VAC Meeting.zip|9690067|2026-03-17 16:00:32
+Papers/FinalReports/Preface Instead of Forward.docx|22143|2026-03-01 14:36:12
+Papers/FinalReports/QuarterlySentimentReport.docx|114721|2026-02-15 15:06:46
+Papers/FinalReports/STMandLDAResults.txt|4214|2026-02-16 09:28:56
+Papers/FinalReports/TopicModelingResults.docx|22769|2026-02-16 15:09:31
+Papers/FinalReports/VAC_Reddit_VIIF_Crosswalk_Table.docx|28017|2026-02-16 12:27:18
+Papers/FinalReports/Veteran Service Conversations in Dallas.docx|114714|2026-02-14 16:07:11
+Papers/JRSSA/ExploringJournalOptionsChatGPT.docx|31024|2026-02-20 19:01:08
+Papers/JRSSA/JRSSAPaperOutline.docx|16407|2026-04-06 17:33:22
+Papers/JRSSA/Paper outline for Journal of Royal Statistical Society Series A.docx|25666|2026-04-06 17:33:17
+Papers/SPP/16_July_Methods_ESFI_development.docx|20572|2026-07-16 18:52:01
+Papers/SPP/A Spatiotemporal Analysis of Evictions   Homelessness in the USA.pdf|3451251|2026-04-13 11:40:54
+Papers/SPP/DallasPctVetPopulationMap.png|285228|2026-04-22 09:59:25
+Papers/SPP/Estimating vote transition counts in Ecological Inference.pdf|1662880|2026-04-13 11:40:14
+Papers/SPP/FragmentationIndexByTopic.png|114304|2026-02-18 12:00:57
+Papers/SPP/LiteratureReview.tex|15745|2026-04-10 16:14:34
+Papers/SPP/QuarterlyRelocationScore_Theme6.png|143215|2026-02-17 10:06:32
+Papers/SPP/TransitAccessibilityAndVeteranResources.png|119747|2026-04-08 15:00:34
+Papers/SPP/TransitionScoreByQuarterWithBootstrapBands.png|133519|2026-02-16 14:24:12
+Papers/SPP/administrative_friction_veterans_services.aux|18747|2026-04-17 15:22:25
+Papers/SPP/administrative_friction_veterans_services.log|34578|2026-04-17 15:22:25
+Papers/SPP/administrative_friction_veterans_services.pdf|411286|2026-04-17 15:22:25
+Papers/SPP/administrative_friction_veterans_services.synctex.gz|143877|2026-04-17 15:22:25
+Papers/SPP/administrative_friction_veterans_services.tex|70555|2026-07-15 11:59:47
+Papers/SPP/agsm.bst|25549|2006-01-08 16:33:44
+Papers/SPP/dallas_map.png|292957|2026-04-22 12:02:05
+Papers/SPP/dallas_map_bad.png|251086|2026-04-22 16:30:58
+Papers/SPP/fig-scatter1-1.pdf|5550|2024-05-23 09:28:10
+Papers/SPP/fig1.pdf|3372|2013-09-04 16:07:24
+Papers/SPP/quarterly_perceived_structural_frag.pdf|19827|2026-04-17 15:15:32
+Papers/SPP/reddit_trends_plot.pdf|26271|2026-04-16 12:12:11
+Papers/SPP/uspp-template.zip|241259|2026-04-03 16:06:16
+Papers/SPP/uspp-template/agsm.bst|25549|2006-01-08 16:33:44
+Papers/SPP/uspp-template/bibliography.bib|1194|2024-05-16 15:26:04
+Papers/SPP/uspp-template/fig-scatter1-1.pdf|5550|2024-05-23 09:28:10
+Papers/SPP/uspp-template/fig1.pdf|3372|2013-09-04 16:07:24
+Papers/SPP/uspp-template/template.aux|4547|2025-04-08 11:19:54
+Papers/SPP/uspp-template/template.bbl|992|2025-01-07 11:40:52
+Papers/SPP/uspp-template/template.blg|894|2025-01-07 11:40:52
+Papers/SPP/uspp-template/template.log|27255|2025-04-08 11:19:54
+Papers/SPP/uspp-template/template.pdf|190162|2025-04-08 11:19:54
+Papers/SPP/uspp-template/template.qmd|9287|2024-05-16 15:26:00
+Papers/SPP/uspp-template/template.synctex.gz|31229|2025-04-08 11:19:54
+Papers/SPP/uspp-template/template.tex|15284|2025-04-08 11:19:48
+Papers/SPP/veteranReferences.bib|3821|2026-04-10 16:25:55
+Papers/SPP/veterans_references.bib|11563|2026-04-11 11:53:31
+Papers/SPP/viif_activity_plot.pdf|24813|2026-04-16 12:21:54
+Papers/dot_28247_DS1.pdf|1042576|2026-04-20 14:12:27
+Papers/franco-et-al-2020-veterans-health-and-well-being-collaborative-research-approaches-toward-veteran-community-engagement.pdf|2365214|2026-04-20 14:05:22
+Papers/houston-needs-assessment.pdf|512377|2026-04-20 14:37:53
+Presentations/Presentations Plan For 3_12_2026.docx|16082|2026-03-11 17:10:32
+Presentations/SDSS2026/.Rhistory|17268|2025-12-08 16:16:20
+Presentations/SDSS2026/2026 Second Email - Journal Instructions.docx|507133|2026-05-19 08:33:52
+Presentations/SDSS2026/Abstract/NonTechnicalAbstract.docx|14627|2025-11-14 09:19:44
+Presentations/SDSS2026/Abstract/SDSS2026Abstract.docx|163952|2026-01-29 15:26:20
+Presentations/SDSS2026/Abstract/SDSS2026_Abstract.pdf|167692|2025-12-09 20:06:02
+Presentations/SDSS2026/Abstract/terrainMappingLong.csv|55713|2025-12-08 10:33:59
+Presentations/SDSS2026/Abstract/topTerrainMappingTerms.csv|890|2025-12-08 14:57:48
+Presentations/SDSS2026/Abstract/topicsBetaTerrainMapping.csv|240999|2025-12-08 15:42:02
+Presentations/SDSS2026/Abstract/topicsGammaTerrainMapping.csv|1583|2025-12-08 15:42:02
+Presentations/SDSS2026/Abstract/topics_otm_betas_barcharts.png|65469|2025-12-08 15:50:29
+Presentations/SDSS2026/LightningTalkPresenters.txt|657|2026-04-14 12:22:09
+Presentations/SDSS2026/PanelModeratorScript.docx|21071|2026-04-27 13:47:54
+Presentations/SDSS2026/Presentation/EmotionDeviationsHealthcareAccess.png|77316|2026-02-17 16:23:09
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.aux|3017|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.log|41740|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.nav|1760|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.out|0|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.pdf|110646|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.snm|0|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.synctex.gz|30961|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.tex|8947|2026-01-27 13:02:45
+Presentations/SDSS2026/Presentation/Nontechnical/SDSS2026Presentation.toc|0|2026-01-27 17:24:42
+Presentations/SDSS2026/Presentation/Nontechnical/dallas_vet_pop_by_census.png|337386|2026-04-22 20:35:41
+Presentations/SDSS2026/Presentation/References/311-1-2502-1-10-20220610.pdf|1000487|2026-04-28 15:07:55
+Presentations/SDSS2026/Presentation/References/3512980.pdf|839230|2026-04-28 14:42:08
+Presentations/SDSS2026/Presentation/References/houston-needs-assessment.pdf|512377|2026-04-28 16:05:32
+Presentations/SDSS2026/Presentation/References/jmir-2018-8-e257.pdf|160039|2026-04-28 15:00:10
+Presentations/SDSS2026/Presentation/References/o-connell-et-al-2016-impact-of-supported-housing-on-social-relationships-among-homeless-veterans.pdf|455649|2026-04-28 14:43:28
+Presentations/SDSS2026/Presentation/References/reasons-older-veterans-use-the-veterans-health-administration-and-non-vha-care-in-an-urban-environment.bib|2487|2026-04-28 14:33:00
+Presentations/SDSS2026/Presentation/SMU-Dedman.png|29663|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-Stat.png|29984|2024-05-15 07:29:18
+Presentations/SDSS2026/Presentation/SMU-beamer.zip|866507|2024-05-25 16:41:04
+Presentations/SDSS2026/Presentation/SMU-beamer/ISUPASJune2025.tex|28237|2025-06-05 08:59:06
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/SMU-Dedman.png|29663|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/SMU-Stat.png|29984|2024-05-15 07:29:18
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/SMUbg.png|121671|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/SMUlogoWhite.png|9268|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/beamerthemeSMU.sty|3041|2024-05-24 11:15:01
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/slides.Rmd|2377|2024-05-24 11:15:22
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/slides.bib|1236|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme-rmarkdown/slides.pdf|331151|2024-05-24 11:15:06
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/README.md|220|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/SMU-Dedman.png|29663|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/SMU-Stat.png|29984|2024-05-15 07:29:18
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/SMUbg.png|121671|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/SMUlogoWhite.png|9268|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/slides.pdf|254703|2024-05-24 10:56:03
+Presentations/SDSS2026/Presentation/SMU-beamer/SMU-beamer-mtheme/slides.tex|8306|2024-05-24 10:55:53
+Presentations/SDSS2026/Presentation/SMUbg.png|121671|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/SMUlogoWhite.png|9268|2024-03-15 14:08:53
+Presentations/SDSS2026/Presentation/VIIF_Raw_Data.JPEG|589212|2026-04-28 16:29:50
+Presentations/SDSS2026/Presentation/VIIF_Raw_Map.JPEG|736487|2026-04-28 16:31:51
+Presentations/SDSS2026/Presentation/dallas_pct_veteran_map_services.png|512117|2026-04-28 16:10:48
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.aux|10089|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.log|61882|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.nav|5147|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.out|1694|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.pdf|2972623|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.snm|0|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.synctex.gz|68453|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.tex|37880|2026-04-29 21:04:11
+Presentations/SDSS2026/Presentation/dallas_veterans_sdss_smu_beamer_stm_restructured.toc|653|2026-04-29 21:04:05
+Presentations/SDSS2026/Presentation/quarterly_perceived_structural_frag.png|342646|2026-04-17 15:15:32
+Presentations/SDSS2026/Presentation/reddit_trends_plot.png|210986|2026-04-16 12:12:11
+Presentations/SDSS2026/Presentation/sdss2026.bib|1587|2025-12-08 16:31:15
+Presentations/SDSS2026/Presentation/viif_k_diagnostics_chosenK.png|156016|2026-04-28 19:28:02
+Presentations/SDSS2026/Presentation/viif_reddit_stm_topic_crosswalk.png|372369|2026-04-28 20:54:30
+Presentations/SDSS2026/Receipts/Folio_52280251.pdf|12331|2026-05-12 10:52:24
+Presentations/SDSS2026/Receipts/KingAndI.pdf|380041|2026-05-11 10:31:53
+Presentations/SDSS2026/Receipts/RegistrationReceipt.pdf|196071|2026-03-23 10:52:00
+Presentations/SDSS2026/Receipts/SDSSAcceptance.pdf|226558|2026-03-09 14:40:52
+Presentations/SDSS2026/Receipts/receipt_9d1ff49d-5629-420a-9230-75a04323d751.pdf|166957|2026-05-11 10:47:34
+Presentations/SDSS2026/Receipts/receipt_9f53f9d3-2989-416e-ba51-6c6ce479fa6c.pdf|171713|2026-05-11 10:48:31
+Presentations/SDSS2026/Receipts/www.travelocity.com-egti-JXE-94J-ZX9G.pdf|107322|2026-03-23 15:14:19
+Presentations/SDSS2026/SDSS_Viz_Code.R|10012|2026-04-29 12:25:34
+Presentations/SDSS2026/Tidycensus Code/BetterMap.png|141416|2025-11-14 16:57:45
+Presentations/SDSS2026/Tidycensus Code/CensusUpdatedCity.R|132381|2025-11-14 13:01:58
+Presentations/SDSS2026/Tidycensus Code/VetPopulationDallas.png|215355|2026-04-22 17:03:53
+Presentations/SDSS2026/Tidycensus Code/dallas_veteran_map.png|215969|2026-04-22 18:00:32
+Presentations/SDSS2026/Tidycensus Code/tidycensusVeteransInformation.R|10795|2026-04-20 18:46:35
+Presentations/SDSS2026/TopicInterpretation.docx|22384|2026-04-09 16:01:59
+README.md|6300|2026-07-16 11:52:24
+RawData/dallasThreads_January.csv|1483106|2026-01-14 22:59:00
+RawData/financePostsOct.csv|79134|2025-10-22 14:23:25
+RawData/veteranThreads_January.csv|1272293|2026-01-14 23:12:00
+Reproducibility/Manifests/project_file_inventory.txt|4778|2026-07-23 10:12:19
+Reproducibility/Manifests/raw_csv_sha256.txt|295|2026-07-23 10:12:54
+Reproducibility/Manifests/raw_input_manifest.csv|1020|2026-07-23 13:09:32
+Reproducibility/Manifests/raw_input_manifest.sha256|295|2026-07-23 13:09:32
