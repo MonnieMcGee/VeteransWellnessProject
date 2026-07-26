@@ -7,6 +7,8 @@ This repository contains the complete reproducible analysis pipeline for the Dal
 
 The repository includes the complete workflow used to construct the Reddit analysis corpus, develop and validate the Experienced System Fragmentation Index (ESFI), fit Structural Topic Models (STM), and generate all publication-ready tables and figures. :contentReference[oaicite:0]{index=0}
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21611008.svg)](https://doi.org/10.5281/zenodo.21611008)
+
 ---
 
 ## Data Availability
