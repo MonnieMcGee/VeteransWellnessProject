@@ -22,6 +22,10 @@ version: "1.0.0"
 
 date-released: 2026-07-26
 
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21611008
+
 keywords:
   - veterans
   - natural language processing
