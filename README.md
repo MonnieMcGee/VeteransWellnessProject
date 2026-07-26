@@ -135,7 +135,7 @@ Once the manuscript is published, this citation will be updated with the journal
 
 ---
 
-## Research Ethics
+# Research Ethics
 
 Human-subjects components of this project were reviewed by the Southern Methodist University Institutional Review Board (IRB #25-020) and determined to be exempt under 45 CFR 46.104(d)(2). Data sharing in this repository is consistent with the approved protocol.
 ---
