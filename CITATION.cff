@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Dallas Veterans Well-Being Assessment Analysis Pipeline"
+message: "If you use this software or analysis pipeline, please cite this repository."
+type: software
+
+authors:
+  - family-names: McGee
+    given-names: Monnie
+    affiliation: Southern Methodist University
+  - family-names: Ebinger
+    given-names: Jennifer
+    affiliation: Southern Methodist University
+  - family-names: Zarazaga
+    given-names: Jessie
+    affiliation: Southern Methodist University
+
+repository-code: "https://github.com/MonnieMcGee/VeteransWellnessProject"
+
+license: GPL-3.0
+
+version: "1.0.0"
+
+date-released: 2026-07-26
+
+keywords:
+  - veterans
+  - natural language processing
+  - structural topic modeling
+  - qualitative analysis
+  - reproducible research
+  - R
