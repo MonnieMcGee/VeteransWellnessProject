@@ -11,10 +11,14 @@ The repository includes the complete workflow used to construct the Reddit analy
 
 ## Data Availability
 
-The analysis code and derived reproducible workflow are available in this repository.
+This repository contains the complete analysis code and reproducible workflow used in the study.
 
-Raw Redditt data and data from the Veterans Insights Forum are subject to licensing, privacy, or institutional restrictions and therefore are not redistributed. Instructions for recreating the analysis from authorized source data are provided in the `RawData/README.md` file.
+The `RawData` directory is intentionally excluded from the public repository.
 
+- Veterans Insights Forum (VIIF) data contain human-subject research materials collected under SMU IRB protocol #25-020 and are not publicly distributed.
+- Reddit data were obtained from publicly available sources but are not redistributed through this repository.
+
+The repository includes all code, derived analysis objects, and reproducibility scripts necessary to reproduce the analyses from the original data.
 ---
 
 # Authors
@@ -129,6 +133,11 @@ If you use this software, analysis pipeline, or derivative work, please cite:
 
 Once the manuscript is published, this citation will be updated with the journal reference and DOI.
 
+---
+
+## Research Ethics
+
+Human-subjects components of this project were reviewed by the Southern Methodist University Institutional Review Board (IRB #25-020) and determined to be exempt under 45 CFR 46.104(d)(2). Data sharing in this repository is consistent with the approved protocol.
 ---
 
 # License

@@ -1,0 +1,115 @@
+###############################################################################
+# Dallas Veterans Wellness Project
+# .gitignore
+###############################################################################
+
+############################
+# Operating system files
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+Thumbs.db
+Desktop.ini
+
+############################
+# RStudio
+############################
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+############################
+# Raw data (not distributed)
+############################
+
+RawData/*
+!RawData/README.md
+
+############################
+# Quarto / R Markdown caches
+############################
+
+*_cache/
+*_files/
+.cache/
+
+############################
+# LaTeX temporary files
+############################
+
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+############################
+# Temporary files
+############################
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+############################
+# Python
+############################
+
+__pycache__/
+*.pyc
+
+############################
+# Mac/Linux editor files
+############################
+
+*.orig
+
+############################
+# Compressed archives
+############################
+
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+###############################################################################
+# Files to keep
+###############################################################################
+#
+# Code/
+# RawData/
+# DerivedData/
+# Output/
+# Papers/
+# Presentations/
+# Reproducibility/
+#
+# All R scripts
+# All manuscripts
+# All figures
+# All tables
+# All reproducibility reports
+#
+###############################################################################
