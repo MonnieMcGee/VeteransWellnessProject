@@ -19,6 +19,8 @@ The `RawData` directory is intentionally excluded from the public repository.
 - Reddit data were obtained from publicly available sources but are not redistributed through this repository.
 
 The repository includes all code, derived analysis objects, and reproducibility scripts necessary to reproduce the analyses from the original data.
+
+Zenodo Release: DOI: 10.5281/zenodo.21611009
 ---
 
 # Authors
@@ -137,7 +139,7 @@ Once the manuscript is published, this citation will be updated with the journal
 
 # Research Ethics
 
-Human-subjects components of this project were reviewed by the Southern Methodist University Institutional Review Board (IRB #25-020) and determined to be exempt under 45 CFR 46.104(d)(2). Data sharing in this repository is consistent with the approved protocol.
+Human subjects components of this project were reviewed by the Southern Methodist University Institutional Review Board (IRB 25-020) and determined to be exempt under 45 CFR 46.104(d)(2). Data sharing in this repository is consistent with the approved protocol.
 ---
 
 # License
